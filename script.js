@@ -1,4 +1,4 @@
-const API_URL = "https://todo-backend-9tqj.onrender.com/tasks"; // Change after deployment
+const API_URL = "https://todo-backend-9tqj.onrender.com"; // Change after deployment
 
 async function loadTasks() {
   const res = await fetch(`${API_URL}/tasks`);
